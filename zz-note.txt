@@ -1,0 +1,5 @@
+main viewing components:
+    home page - trending
+    recently added
+    movies
+    tv shows

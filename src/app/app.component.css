@@ -1,0 +1,16 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.main-container {
+  height:100%;
+}
+
+mat-toolbar .app-name{
+  padding: 1% 1% 1% 1%;
+}
+
+.main-content {
+  margin: 1% 1% 1% 1%;
+  padding: 1% 1% 1% 1%;
+}

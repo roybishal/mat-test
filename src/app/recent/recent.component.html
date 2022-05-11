@@ -1,0 +1,19 @@
+<mat-toolbar class="main-content-heading">
+    <span>Recently Uploaded</span>
+</mat-toolbar>
+
+<mat-paginator [length]="length" [pageSize]="pageSize" [pageSizeOptions]="pageSizeOptions"
+    (page)="OnPageChange($event)">
+</mat-paginator>
+<mat-grid-list cols="3" rowHeight="200" (window:resize)="onResize($event)">
+    <mat-grid-tile *ngFor="let dict of pagedList" (click)="thumbnailOb.send">
+        <!-- <a class="card-link" mat-raised-button class="card-link" href="/watching" (click)="thumbnailOb.send"> -->
+            <button mat-raised-button (click)="thumbnailOb.send()">
+                <app-thumbnail #thumbnailOb [movie]="dict">
+                </app-thumbnail>
+            </button>
+            
+        <!-- </a> -->
+    </mat-grid-tile>
+    
+</mat-grid-list>

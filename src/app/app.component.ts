@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mat-test';
+  dictionaryTab: {[key:string] : boolean} = {
+    "homeOpen" : false,
+    "recentOpen": false,
+    "searchOpen": false
+  };
 }

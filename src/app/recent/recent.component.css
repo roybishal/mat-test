@@ -1,0 +1,21 @@
+
+
+.card-link {
+  height: inherit;
+  width:inherit;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: 1px solid green ;
+}
+
+.mat-grid-list {
+  margin: 1% 0%;
+}
+.mat-button-wrapper{
+  height: inherit;
+  width: inherit;
+}
+app-thumbnail {
+  height: 100%;
+  width: 100%;
+}
