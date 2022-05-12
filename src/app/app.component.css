@@ -14,3 +14,8 @@ mat-toolbar .app-name{
   margin: 1% 1% 1% 1%;
   padding: 1% 1% 1% 1%;
 }
+
+router-outlet{
+  width:max-content;
+  height: max-content;
+}

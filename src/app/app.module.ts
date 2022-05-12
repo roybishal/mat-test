@@ -16,6 +16,11 @@ import {MatTableModule} from '@angular/material/table';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 
+import { VgCoreModule } from '@videogular/ngx-videogular/core';
+import { VgControlsModule } from '@videogular/ngx-videogular/controls';
+import { VgOverlayPlayModule } from '@videogular/ngx-videogular/overlay-play';
+import { VgBufferingModule } from '@videogular/ngx-videogular/buffering';
+
 import { HomeComponent } from './home/home.component';
 import { RecentComponent } from './recent/recent.component';
 import { SearchComponent } from './search/search.component';
@@ -45,7 +50,11 @@ import { WatchingComponent } from './watching/watching.component';
     MatPaginatorModule,
     MatTableModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

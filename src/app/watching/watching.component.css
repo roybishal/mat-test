@@ -1,0 +1,19 @@
+app-watching{
+    height: 100%;
+    width: max-content;
+    margin: 1% 1% 5%;
+}
+
+.video-player-wrapper{
+    
+}
+
+vg-player{
+    /* text-align: center;
+    height: 80%;
+    width:80%;
+    margin: 1% 1% 5% 1%; */
+    height:20%;
+    margin: 5% 0% ;
+    display: block;
+}

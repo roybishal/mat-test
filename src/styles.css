@@ -12,6 +12,10 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+.mat-drawer-content::-webkit-scrollbar {
+    display: none;
+}
+
 .mat-badge-content {
     font-weight: 600;
     font-size: 12px;
@@ -3142,3 +3146,4 @@ td.mat-footer-cell {
 .mat-simple-snackbar-action {
     color: inherit
 }
+
